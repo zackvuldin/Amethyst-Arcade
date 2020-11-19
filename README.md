@@ -15,9 +15,8 @@
 | Day 1 | Project Approval / wire-framing  | [ ]    |
 | Day 2 | Focus on creating Snake game (MVP) | [ ]    |
 | Day 3 | Focus on creating Snake game + affixes(pMVP)     | [ ]    |
-| Day 4 | MVP + pMVP                               | [ ]    |
-| Day 5 | MVP + pMVP + debugging                                | [ ]    |
-| Day 6 | Deadline: Presentation                               | [ ]    |
+| Day 4 | MVP + pMVP + debugging                                | [ ]    |
+| Day 5 | Deadline: Presentation                               | [ ]    |
 
 ---
 
@@ -29,7 +28,8 @@ Amethyst Arcade is an application that will have access to many classic games, b
 
 ## Wireframes
 
-- [Main Page](https://res.cloudinary.com/vuldin/image/upload/v1601655749/Project%20API%20-%20WireFrames/Main_Page_wwtayb.jpg)
+- [Snake](https://res.cloudinary.com/vuldin/image/upload/v1605813659/Amethyst%20Arcade/IMG_0206_1_d88vxx.jpg)
+- [Pong](https://res.cloudinary.com/vuldin/image/upload/v1605813662/Amethyst%20Arcade/IMG_0205_1_mujy7q.jpg)
 
 ---
 
@@ -37,33 +37,30 @@ Amethyst Arcade is an application that will have access to many classic games, b
 
 | Component                      | Priority | Estimated Time | Actual Time |
 | :----------------------------- | :------- | :------------- | :---------- |
-| Snake (div collison) | H | 4 hrs | |
-| Snake (functionality) | H | 4 hrs | |
+| Snake (div collision) | H | 5 hrs | |
+| Snake (functionality) | H | 5 hrs | |
 | Snake (object design) | H | 4 hrs | |
-| Snake (movement) | H | 4 hrs | |
+| Snake (movement) | H | 5 hrs | |
 | Snake (controls) | H | 4 hrs | |
-| Game Logic + math | H | 4 hrs | |
-| Total | H | 24 hrs | |
-
-
-
+| Game Logic + math | H | 5 hrs | |
+| Authentication | M | 6 hrs | |
+| Total | H | 34 hrs | |
 
 ## PostMVP Time-Frame
 
 | Component                              | Priority | Estimated Time | Actual Time |
 | :------------------------------------- | :------- | :------------- | :---------- |
-| aim_trainer | H | 4 hrs | |
-| hanoi_tower | M | 6 hrs | |
-| pong | M | 5 hrs | |
-| platformer | L | 7 hrs | |
-| asteroids | L | 6 hrs | |
-| Total | H | 28 hrs | |
-
+| aim_trainer | H | 8 hrs | |
+| hanoi_tower | M | 12 hrs | |
+| pong | M | 12 hrs | |
+| platformer | L | 14 hrs | |
+| asteroids | L | 10 hrs | |
+| Total | H | 56 hrs | |
 
 ### MVP
 
-- Make sure API fetches the correct request
-
+- Snake
+- Authentication
 
 ### PostMVP
 
@@ -73,15 +70,18 @@ Amethyst Arcade is an application that will have access to many classic games, b
 - platformer
 - asteroids
 
-
 ---
 
 ## Game Folders
 
 | Component     |                     Description                      |
 | ------------- | :--------------------------------------------------: |
-| App           |    Initial data pull which includes React Router     |
-
+| Snake           | My MVP that I will be focusing on, the classic snake game with twists!     |
+| hanoi_tower | very math intensive game because of puzzle mentality |
+| aim_trainer | like the aim trainers on steam or OSU! (music game) |
+| pong | classic pong game and working on how AI will work |
+| platformer | like mario and have objects to dodge or go through |
+| asteroids | classic asteroids came with more div collision |
 
 ---
 
