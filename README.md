@@ -1,4 +1,4 @@
-![Chitoge is my Waifu: No waifu, no laifu](https://media.tenor.com/images/4fd49de4149a6d348e04f2465a3970af/tenor.gif)
+![Chika Cute Dance](https://media.tenor.com/images/4fd49de4149a6d348e04f2465a3970af/tenor.gif)
 
 # Amethyst Arcade
 
@@ -13,10 +13,19 @@
 | Day   | Deliverable                                          | Status |
 | :---- | :--------------------------------------------------- | :----- |
 | Day 1 | Project Approval / wire-framing  | [ ]    |
-| Day 2 | Focus on creating Snake game (MVP) | [ ]    |
-| Day 3 | Focus on creating Snake game + affixes(pMVP)     | [ ]    |
-| Day 4 | MVP + pMVP + debugging                                | [ ]    |
-| Day 5 | Deadline: Presentation                               | [ ]    |
+| Day 2 | div collision focus for snake (MVP) | [ ]    |
+| Day 3 | implementing div collision and adding functionality (MVP) | [ ]    |
+| Day 4 | functionality + object design with snake (MVP) | [ ]    |
+| Day 5 | object design + authentication | [ ]    |
+| Day 6 | finalizing authentication | [ ]    |
+| Day 7* | functionality + object design with snake (MVP) part 2 | [ ]    |
+| Day 8* | movement + controls with snake (MVP) | [ ]    |
+| Day 9* | movement + controls with snake (MVP) part 2 | [ ]    |
+| Day 10*| Focus on finishing Snake game + affixes(pMVP) | [ ]    |
+| Day 11* | MVP + pMVP + authentication debugging       | [ ]    |
+| Day 12 | Deadline: Presentation                               | [ ]    |
+
+| * = partial break days (less time to work on project)
 
 ---
 
@@ -28,8 +37,7 @@ Amethyst Arcade is an application that will have access to many classic games, b
 
 ## Wireframes
 
-- [Snake](https://res.cloudinary.com/vuldin/image/upload/v1605813659/Amethyst%20Arcade/IMG_0206_1_d88vxx.jpg)
-- [Pong](https://res.cloudinary.com/vuldin/image/upload/v1605813662/Amethyst%20Arcade/IMG_0205_1_mujy7q.jpg)
+- [Snake](https://www.figma.com/file/VIwKzYfr4WN2xe2GDzPUeW/Amethyst-Arcade-Snake?node-id=0%3A1)
 
 ---
 
