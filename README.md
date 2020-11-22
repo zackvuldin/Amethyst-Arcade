@@ -12,7 +12,7 @@
 
 | Day   | Deliverable                                          | Status |
 | :---- | :--------------------------------------------------- | :----- |
-| Day 1 | Project Approval / wire-framing  | [ ]    |
+| Day 1 | Project Approval / wire-framing  | [x]    |
 | Day 2 | div collision focus for snake (MVP) | [ ]    |
 | Day 3 | implementing div collision and adding functionality (MVP) | [ ]    |
 | Day 4 | functionality + object design with snake (MVP) | [ ]    |
@@ -118,3 +118,35 @@ function reverse(string) {
 ---
 
 ## Issues and Resolutions
+
+making sure to call functions currently
+```
+box_detection.rb:45:in `block in collision_detected?': undefined local variable or method `square' for #<Box:0x00000000065ac228> (NameError)
+```
+
+learning process on Ruby syntax and end positioning.
+aka: 
+sometimes it not the end but the syntaxes IN that function ending with "end"
+```
+box_detection.rb:62: syntax error, unexpected `end'
+box_detection.rb:80: syntax error, unexpected end-of-input, expecting `end'
+
+```
+
+order matters
+```
+Traceback (most recent call last):
+        12: from box_detection.rb:80:in `<main>'
+        11: from D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/ruby2d-0.9.4/lib/ruby2d/dsl.rb:32:in `show'
+        10: from D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/ruby2d-0.9.4/lib/ruby2d/window.rb:153:in `show'
+         9: from D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/ruby2d-0.9.4/lib/ruby2d/window.rb:392:in `show'
+         8: from D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/ruby2d-0.9.4/lib/ruby2d/window.rb:392:in `ext_show'
+         7: from D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/ruby2d-0.9.4/lib/ruby2d/window.rb:368:in `update_callback'
+         6: from box_detection.rb:72:in `block in <main>'
+         5: from box_detection.rb:72:in `each'
+         4: from box_detection.rb:74:in `block (2 levels) in <main>'
+         3: from box_detection.rb:37:in `check_for_collisions'
+         2: from box_detection.rb:44:in `collision_detected?'
+         1: from box_detection.rb:44:in `any?'
+
+```

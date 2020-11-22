@@ -1,15 +1,17 @@
 require 'ruby2d'
+
 # procedural programming, no OOP yet
 set background: 'red'
 set title: 'Reaction Game'
 
+# setup
 message = Text.new('Click to Start', x: 20, y:20)
 game_started = false
 square = nil
 start_time = nil
 duration = nil
 
-
+# on click event
 on :mouse_down do |event|
     # x and y coordinates of the mouse button event
     # prints out coords of mouse click
