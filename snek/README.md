@@ -1,3 +1,9 @@
+# Controls
+Snake control:
+
+- Arrow Keys
+- Restart (when game over): R
+
 # About
 
 Snek was written with Ruby2D framework.
@@ -6,23 +12,23 @@ Snek was written with Ruby2D framework.
 
 ## Goals
 
-- collision detection;
+- collision detection
 
-# Install
+# Launching
 
 Make sure you have installed:
 
-* [simple2d](https://github.com/simple2d/simple2d):
-
-```
-brew tap simple2d/tap
-brew install simple2d
-```
-
-* [ruby2d](https://github.com/ruby2d/ruby2d):
+- [simple2d](https://github.com/simple2d/simple2d):
 
 ```
 gem install ruby2d
+```
+
+- [ruby2d](https://github.com/ruby2d/ruby2d):
+
+```
+require 'ruby2d'
+show
 ```
 
 Then clone the source code to your local:
@@ -37,8 +43,3 @@ git clone https://github.com/zackvuldin/Amethyst-Arcade/tree/main/snek
 cd snek
 ruby snake.rb
 ```
-
-Snake control:
-
-* Arrow Keys
-* Restart (game over): R

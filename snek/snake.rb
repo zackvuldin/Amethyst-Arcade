@@ -28,6 +28,7 @@ def draw
     end
   end
 
+  # growth function starter with move function
   def grow
     @growing = true
   end
@@ -120,6 +121,7 @@ class Game
 
   private
 
+  # game over message when user hits itself
   def text_message
     if finished?
       "Game over, Your Score was #{@score}. Press 'R' to restart. "
@@ -129,6 +131,8 @@ class Game
   end
 end
 
+# refresh
+# calling all functions
 snake = Snake.new
 game = Game.new
 
@@ -158,7 +162,7 @@ on :key_down do |event|
       snake.direction = event.key
     end
   end
-
+# r for restart: calling function
   if game.finished? && event.key == 'r'
     snake = Snake.new
     game = Game.new
