@@ -1,6 +1,6 @@
 require 'ruby2d'
 
-set background: 'red'
+set background: 'black'
 # speed
 set fps_cap: 20
 
@@ -15,6 +15,7 @@ GRID_HEIGHT = Window.height / SQUARE_SIZE
 class Snake
   attr_writer :direction
 
+  # snake object itself positioning
   def initialize
     @positions = [[2, 0], [2, 1], [2, 2], [2 ,3]]
     @direction = 'down'
@@ -22,6 +23,7 @@ class Snake
   end
 
     # snake object itself
+    # dot creation
 def draw
     @positions.each do |position|
       Square.new(x: position[0] * SQUARE_SIZE, y: position[1] * SQUARE_SIZE, size: SQUARE_SIZE - 1, color: 'white')
@@ -97,8 +99,8 @@ class Game
 
   # score board
   def draw
-    Square.new(x: @ball_x * SQUARE_SIZE, y: @ball_y * SQUARE_SIZE, size: SQUARE_SIZE, color: 'yellow')
-    Text.new(text_message, color: 'black', x: 10, y: 10, size: 25, z: 1)
+    Square.new(x: @ball_x * SQUARE_SIZE, y: @ball_y * SQUARE_SIZE, size: SQUARE_SIZE, color: 'red')
+    Text.new(text_message, color: 'white', x: 10, y: 10, size: 25, z: 1)
   end
 
   def snake_hit_ball?(x, y)
@@ -146,6 +148,7 @@ update do
   snake.draw
   game.draw
 
+  # when snake hits into ball/food
   if game.snake_hit_ball?(snake.x, snake.y)
     game.record_hit
     snake.grow
@@ -156,6 +159,9 @@ update do
   end
 end
 
+# direction and snake can do different things with increments with def move
+# checks direction so snake cant go left and right or up and down
+# cant go left if going right. cant go up if going down. checks. vice versa
 on :key_down do |event|
   if ['up', 'down', 'left', 'right'].include?(event.key)
     if snake.can_change_direction_to?(event.key)
@@ -170,3 +176,5 @@ on :key_down do |event|
 end
 
 show
+
+# order of code important, kinda
