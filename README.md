@@ -13,10 +13,10 @@
 | Day   | Deliverable                                          | Status |
 | :---- | :--------------------------------------------------- | :----- |
 | Day 1 | Project Approval / wire-framing  | [x]    |
-| Day 2 | div collision focus for snake (MVP) | [ ]    |
-| Day 3 | implementing div collision and adding functionality (MVP) | [ ]    |
-| Day 4 | functionality + object design with snake (MVP) | [ ]    |
-| Day 5 | object design + authentication | [ ]    |
+| Day 2 | div collision focus for snake (MVP) | [x]    |
+| Day 3 | implementing div collision and adding functionality (MVP) | [x]    |
+| Day 4 | functionality + object design with snake (MVP) | [x]    |
+| Day 5 | object design + authentication | [x]    |
 | Day 6 | finalizing authentication | [ ]    |
 | Day 7* | functionality + object design with snake (MVP) part 2 | [ ]    |
 | Day 8* | movement + controls with snake (MVP) | [ ]    |
