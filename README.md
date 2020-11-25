@@ -17,7 +17,7 @@
 | Day 3 | implementing div collision and adding functionality (MVP) | [x]    |
 | Day 4 | functionality + object design with snake (MVP) | [x]    |
 | Day 5 | object design + authentication | [x]    |
-| Day 6 | finalizing authentication | [ ]    |
+| Day 6 | finalizing authentication | [x]    |
 | Day 7* | functionality + object design with snake (MVP) part 2 | [ ]    |
 | Day 8* | movement + controls with snake (MVP) | [ ]    |
 | Day 9* | movement + controls with snake (MVP) part 2 | [ ]    |
