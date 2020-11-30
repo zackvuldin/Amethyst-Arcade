@@ -18,11 +18,11 @@
 | Day 4 | functionality + object design with snake (MVP) | [x]    |
 | Day 5 | object design + authentication | [x]    |
 | Day 6 | finalizing authentication | [x]    |
-| Day 7* | functionality + object design with snake (MVP) part 2 | [ ]    |
-| Day 8* | movement + controls with snake (MVP) | [ ]    |
-| Day 9* | movement + controls with snake (MVP) part 2 | [ ]    |
-| Day 10*| Focus on finishing Snake game + affixes(pMVP) | [ ]    |
-| Day 11* | MVP + pMVP + authentication debugging       | [ ]    |
+| Day 7* | functionality + object design with snake (MVP) part 2 | [x]    |
+| Day 8* | movement + controls with snake (MVP) | [x]    |
+| Day 9* | movement + controls with snake (MVP) part 2 | [x]    |
+| Day 10*| Focus on finishing Snake game + affixes(pMVP) | [x]    |
+| Day 11* | MVP + pMVP + authentication debugging       | [x]    |
 | Day 12 | Deadline: Presentation                               | [ ]    |
 
 | * = partial break days (less time to work on project)
